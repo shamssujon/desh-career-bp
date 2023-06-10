@@ -1,6 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## About
 
-## Getting Started
+This is an assignment task from Bangla Puzzle Limited and a clone of https://deshcareer.com/
+
+## Tech Stack
+
+Next JS, TailwindCSS
+
+## Live Preview
+
+Homepage: https://desh-career-bp.shamssujon.com/
+Contact Page: https://desh-career-bp.shamssujon.com/contact
+
+## Installation
+
+Download or clone the project into your device. Then go to the project root and run:
+
+```bash
+npm install
+# or
+yarn install
+```
+
+## Development
 
 First, run the development server:
 
