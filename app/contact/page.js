@@ -1,3 +1,7 @@
+export const metadata = {
+	title: "Contact Us",
+};
+
 export default function Contact() {
 	return (
 		<section className="py-16">
@@ -17,7 +21,7 @@ export default function Contact() {
 					<p className="leading-loose">
 						If you want to meet with us, you can come to our office based on an appointment.
 					</p>
-					<address className="not-italic leading-loose mt-4">
+					<address className="mt-4 not-italic leading-loose">
 						<p>
 							Our Office address:
 							<br />

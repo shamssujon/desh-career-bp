@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { FaFacebook, FaLinkedinIn, FaYoutube } from "react-icons/fa";
-import logo from "../assets/img/logo.png";
 
 export default function Footer() {
 	return (
@@ -12,7 +11,7 @@ export default function Footer() {
 						<Link
 							href="https://facebook.com"
 							target="_blank"
-							className="block rounded border border-blue-100/50 p-1 text-xl transition hover:opacity-100 opacity-70">
+							className="block rounded border border-blue-100/50 p-1 text-xl opacity-70 transition hover:opacity-100">
 							<FaFacebook />
 						</Link>
 					</li>
@@ -20,7 +19,7 @@ export default function Footer() {
 						<Link
 							href="https://facebook.com"
 							target="_blank"
-							className="block rounded border border-blue-100/50 p-1 text-xl transition hover:opacity-100 opacity-70">
+							className="block rounded border border-blue-100/50 p-1 text-xl opacity-70 transition hover:opacity-100">
 							<FaYoutube />
 						</Link>
 					</li>
@@ -28,7 +27,7 @@ export default function Footer() {
 						<Link
 							href="https://facebook.com"
 							target="_blank"
-							className="block rounded border border-blue-100/50 p-1 text-xl transition hover:opacity-100 opacity-70">
+							className="block rounded border border-blue-100/50 p-1 text-xl opacity-70 transition hover:opacity-100">
 							<FaLinkedinIn />
 						</Link>
 					</li>
@@ -38,7 +37,7 @@ export default function Footer() {
 					<div className="text-center md:text-left">
 						<Link href="/">
 							<Image
-								src={logo}
+								src="/logo.png"
 								width="180"
 								height="150"
 								alt="Logo"
