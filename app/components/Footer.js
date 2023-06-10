@@ -12,7 +12,7 @@ export default function Footer() {
 						<Link
 							href="https://facebook.com"
 							target="_blank"
-							className="block rounded border border-blue-100/50 p-1 text-xl transition hover:opacity-70">
+							className="block rounded border border-blue-100/50 p-1 text-xl transition hover:opacity-100 opacity-70">
 							<FaFacebook />
 						</Link>
 					</li>
@@ -20,7 +20,7 @@ export default function Footer() {
 						<Link
 							href="https://facebook.com"
 							target="_blank"
-							className="block rounded border border-blue-100/50 p-1 text-xl transition hover:opacity-70">
+							className="block rounded border border-blue-100/50 p-1 text-xl transition hover:opacity-100 opacity-70">
 							<FaYoutube />
 						</Link>
 					</li>
@@ -28,7 +28,7 @@ export default function Footer() {
 						<Link
 							href="https://facebook.com"
 							target="_blank"
-							className="block rounded border border-blue-100/50 p-1 text-xl transition hover:opacity-70">
+							className="block rounded border border-blue-100/50 p-1 text-xl transition hover:opacity-100 opacity-70">
 							<FaLinkedinIn />
 						</Link>
 					</li>
@@ -104,7 +104,7 @@ export default function Footer() {
 					</div>
 				</div>
 			</div>
-			<hr className="mx-auto max-w-[92%] opacity-60" />
+			<hr className="mx-auto max-w-[92%] opacity-20" />
 			<div className="container py-5">
 				<div className="flex flex-wrap items-center justify-center gap-4 md:justify-between">
 					<p className="text-center text-sm text-blue-100/70 md:text-left">
