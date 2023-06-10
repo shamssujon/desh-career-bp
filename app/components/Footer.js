@@ -38,8 +38,8 @@ export default function Footer() {
 						<Link href="/">
 							<Image
 								src="/logo.png"
-								width="180"
-								height="150"
+								width="176"
+								height="73"
 								alt="Logo"
 								className="inline-block h-auto w-36 lg:w-44"
 							/>

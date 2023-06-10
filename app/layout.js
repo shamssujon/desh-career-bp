@@ -16,9 +16,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en" className="h-full">
-			<head>
-				<link rel="icon" href="/favicon.png" />
-			</head>
 			<body className={`${inter.className} h-full leading-normal text-slate-950`}>
 				<div className="flex h-full flex-col justify-between">
 					<Header />
