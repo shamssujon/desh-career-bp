@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import Logo from "../assets/img/logo.png";
+import logo from "../assets/img/logo.png";
 
 const navLinks = [
 	{ name: "Home", url: "/" },
@@ -28,7 +28,7 @@ export default function Header() {
 		<div className="relative bg-white py-4 shadow-md">
 			<div className="container flex flex-wrap items-center justify-between">
 				<Link href="/" className="shrink-0">
-					<Image src={Logo} width="180" height="150" alt="Logo" className="h-auto w-36 lg:w-44" />
+					<Image src={logo} width="180" height="150" alt="Logo" className="h-auto w-36 lg:w-44" />
 				</Link>
 				<button
 					onClick={handleMenuToggle}
